@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My thier web page</title>
+</head>
+<body>
+    <!--Container to wrap everything-->
+    <div id="container">
+    <!--Brand of Website-->
+    <header>My Web Site Brand</header>
+    <!--Main navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">About</a></li>
+            <li>Gallery</li>
+            <li><a href="page3.html">Contact</a></li>
+        </ul>
+    </nav> <!--End Main navigation-->
+
+    <!--Main content-->
+    <main>
+        <h1>My third Heading</h1>
+        <p>My third paragraph.</p>
+        <img src="images/central_park.jpg" alt="Central Parck Picture" width="400">
+        <!--Form-->
+        <form action="/signup" method="post">
+            <fieldset>
+                <legend>Use personal information</legend>
+                <label>Enter your name</label><br>
+                <input type="text" name="name"><br>
+                <label>Enter your email</label><br>
+                <input type="email" name="email"><br>
+                <label>Enter your phone</label><br>
+                <input type="tel" name="phone"><br><br>
+                <label>Select your gender</label><br>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female <br>
+                <br>
+                <label>How should we contact you?</label><br>
+                <select>
+                    <option value="email">Email</option><br>
+                    <option selected value="tel">Phone</option> <!--Selected so that phone appears first-->
+                </select><br><br>
+                <label >Tell us the rason of your visit today</label><br>
+                <textarea cols="30" rows="5"></textarea><br> <!--30 characters-->
+                <input type="submit" value="Sign-up">
+            </fieldset>
+        </form>
+        
+    </main> <!--End Main content-->
+
+    <!--Footer information-->
+    <footer>&copy; Copyright2020</footer>
+    
+    </div> <!--End container-->
+    
+</body>
+</html>
